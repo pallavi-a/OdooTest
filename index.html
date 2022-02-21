@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="text-container">
+            <div id="input-field" class="input-field"></div>
+
+        </div>
+        <div class="num-container">
+            <div class="num-pad">
+                <div onclick="showValue(event)" class="num">7</div>
+                <div onclick="showValue(event)" class="num">4</div>
+                <div onclick="showValue(event)" class="num">1</div>
+                <div onclick="showValue(event)" class="num">0</div>
+            </div>
+            <div class="num-pad">
+                <div onclick="showValue(event)" class="num">8</div>
+                <div onclick="showValue(event)" class="num">5</div>
+                <div onclick="showValue(event)" class="num">2</div>
+                <div onclick="generateRandom()" class="num">Random</div>
+            </div>
+            <div class="num-pad">
+                <div onclick="showValue(event)" class="num last-col">9</div>
+                <div onclick="showValue(event)" class="num last-col">6</div>
+                <div onclick="showValue(event)" class="num last-col">3</div>
+                <div onclick="countdown()" class="num last-col">Start</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
